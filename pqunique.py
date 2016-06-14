@@ -18,7 +18,7 @@ class UniquePriorityQueue(queue.Queue):
         otherwise.
         '''
 
-        # TODO: any better way to do this other that copying the whole source?
+        # TODO: any better way to do this other than copying the whole source?
 
         with self.not_full:
             if self.maxsize > 0:
